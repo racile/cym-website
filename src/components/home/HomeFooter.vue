@@ -130,14 +130,14 @@ const currentYear = new Date().getUTCFullYear()
           </ul>
         </div>
 
-          <div>
-            <h4 class="mb-8 text-xs font-black tracking-[0.3em] uppercase text-primary">About</h4>
-            <ul class="space-y-4 text-[15px] font-bold text-slate-400">
-              <li><a href="#" class="hover:text-primary transition-colors">Our Beliefs</a></li>
-              <li><a href="#" class="hover:text-primary transition-colors">Leadership</a></li>
-              <li><a href="#" class="hover:text-primary transition-colors">Careers</a></li>
-            </ul>
-          </div>
+        <div>
+          <h4 class="text-primary mb-8 text-xs font-black tracking-[0.3em] uppercase">About</h4>
+          <ul class="space-y-4 text-[15px] font-bold text-slate-400">
+            <li><a href="#" class="hover:text-primary transition-colors">Our Beliefs</a></li>
+            <li><a href="#" class="hover:text-primary transition-colors">Leadership</a></li>
+            <li><a href="#" class="hover:text-primary transition-colors">Careers</a></li>
+          </ul>
+        </div>
       </div>
 
       <div

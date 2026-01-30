@@ -3,9 +3,7 @@
     <div class="container mx-auto px-6">
       <div class="grid gap-20 lg:grid-cols-2 lg:items-center">
         <div class="relative">
-          <div
-            class="bg-primary/5 absolute top-20 -left-20 h-64 w-64 rounded-full blur-3xl"
-          ></div>
+          <div class="bg-primary/5 absolute top-20 -left-20 h-64 w-64 rounded-full blur-3xl"></div>
           <img
             src="/assets/images/community.png"
             alt="Transformation"
@@ -31,9 +29,7 @@
           </div>
         </div>
         <div class="space-y-10">
-          <div class="text-primary text-xs font-black tracking-[0.3em] uppercase">
-            Our Journey
-          </div>
+          <div class="text-primary text-xs font-black tracking-[0.3em] uppercase">Our Journey</div>
           <h2 class="text-primary-dark text-5xl leading-tight font-bold tracking-tight">
             Faith that meets the modern world.
           </h2>
