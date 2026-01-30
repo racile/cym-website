@@ -1,5 +1,3 @@
-test edit
-
 # Christ in You Ministries (CYM) - Website
 
 A professional, modern, and high-performance church website built with **Vue 3**, **Vite**, and **Tailwind CSS v4**. This repository features a component-based architecture designed for high maintainability and a premium user experience.
