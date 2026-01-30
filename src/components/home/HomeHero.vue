@@ -10,7 +10,7 @@ defineProps<{
 </script>
 
 <template>
-  <header class="bg-primary-dark relative flex min-h-[90vh] items-center overflow-hidden">
+  <header class="bg-primary-dark relative flex overflow-x-hidden lg:min-h-[90vh] lg:items-center">
     <div class="absolute inset-0 opacity-40">
       <img
         src="/assets/images/hero.png"
@@ -18,15 +18,19 @@ defineProps<{
         class="h-full w-full object-cover opacity-60 mix-blend-overlay grayscale"
       />
       <div
-        class="from-primary-dark via-primary-dark/80 absolute inset-0 bg-gradient-to-tr to-transparent"
+        class="from-primary-dark via-primary-dark/80 absolute inset-0 bg-linear-to-tr to-transparent"
       ></div>
     </div>
 
-    <div class="relative container mx-auto px-6 pt-20">
-      <div class="grid gap-20 lg:grid-cols-[1.2fr_0.8fr] lg:items-center">
-        <div>
+    <div
+      class="relative container mx-auto w-full overflow-hidden px-6 pt-28 pb-16 md:pt-32 md:pb-20"
+    >
+      <div class="grid gap-12 lg:grid-cols-[1.2fr_0.8fr] lg:items-center lg:gap-20">
+        <div
+          class="flex w-full min-w-0 flex-col items-center text-center lg:items-start lg:text-left"
+        >
           <div
-            class="mb-8 inline-flex items-center gap-3 rounded-full border border-white/10 bg-white/5 p-1.5 pr-6 backdrop-blur-xl"
+            class="mx-auto mb-6 inline-flex items-center gap-3 rounded-full border border-white/10 bg-white/5 p-1.5 pr-4 backdrop-blur-xl sm:pr-6 lg:mx-0"
           >
             <div
               class="bg-primary flex h-8 w-8 items-center justify-center rounded-full text-white"
@@ -48,31 +52,36 @@ defineProps<{
                 />
               </svg>
             </div>
-            <span class="text-xs font-bold tracking-widest text-white uppercase opacity-90"
+            <span
+              class="text-[9px] font-bold tracking-widest text-white uppercase opacity-90 sm:text-xs"
               >Experience transformation today</span
             >
           </div>
 
-          <h1 class="mb-10 text-6xl leading-[1.05] font-bold text-white md:text-8xl">
+          <h1
+            class="mb-8 text-[22px] leading-[1.2] font-bold text-white uppercase sm:text-5xl md:text-8xl"
+          >
             Built on <span class="text-primary italic">Faith</span>.<br />Driven by
             <span class="text-primary">Purpose</span>.
           </h1>
 
-          <p class="mb-12 max-w-xl text-xl leading-relaxed font-medium text-white/60">
+          <p
+            class="mb-10 w-full max-w-full text-[13px] leading-relaxed font-medium text-white/60 sm:max-w-xl sm:text-lg"
+          >
             We are a modern community of believers dedicated to living out the gospel in the heart
             of our community. Join us as we grow, serve, and transform together.
           </p>
 
-          <div class="flex flex-wrap gap-5">
+          <div class="flex w-full max-w-[260px] flex-col gap-4 sm:max-w-none sm:flex-row sm:gap-5">
             <a
               href="#visit"
-              class="bg-primary hover:text-primary-dark shadow-primary/20 flex items-center gap-3 rounded-2xl px-10 py-5 text-sm font-bold tracking-widest text-white uppercase shadow-2xl transition-all hover:-translate-y-1 hover:bg-white active:scale-95"
+              class="bg-primary hover:text-primary-dark shadow-primary/20 flex items-center justify-center gap-3 rounded-2xl px-10 py-5 text-sm font-bold tracking-widest text-white uppercase shadow-2xl transition-all hover:-translate-y-1 hover:bg-white active:scale-95"
             >
               Join Us This Sunday
             </a>
             <a
               href="#about"
-              class="group flex items-center gap-3 rounded-2xl border-2 border-white/10 bg-white/5 px-10 py-5 text-sm font-bold tracking-widest text-white uppercase backdrop-blur-md transition-all hover:bg-white/10 active:scale-95"
+              class="group flex items-center justify-center gap-3 rounded-2xl border-2 border-white/10 bg-white/5 px-10 py-5 text-sm font-bold tracking-widest text-white uppercase backdrop-blur-md transition-all hover:bg-white/10 active:scale-95"
             >
               Our Story
             </a>
@@ -100,7 +109,7 @@ defineProps<{
             <img
               src="/assets/images/worship.png"
               alt="Community gathering"
-              class="rounded-[1.5rem] shadow-2xl"
+              class="rounded-3xl shadow-2xl"
             />
             <div class="mt-8 space-y-6 p-6">
               <div

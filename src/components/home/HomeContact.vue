@@ -1,21 +1,22 @@
 <template>
-  <section id="contact" class="bg-white py-32">
+  <section id="contact" class="bg-white py-20 md:py-32">
     <div class="container mx-auto px-6">
       <div class="grid gap-20 lg:grid-cols-2 lg:items-center">
-        <div>
+        <div class="text-center lg:text-left">
           <div class="text-primary mb-4 text-xs font-black tracking-[0.3em] uppercase">
             Connect With Us
           </div>
-          <h2 class="text-primary-dark mb-8 text-5xl font-bold tracking-tight">
+          <h2
+            class="text-primary-dark mb-8 text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl"
+          >
             Visit CYM International.
           </h2>
-          <p class="mb-12 text-lg leading-relaxed font-medium text-slate-500">
+          <p class="mb-12 text-base leading-relaxed font-medium text-slate-500 sm:text-lg">
             Our international headquarters serves as a dedicated space for community, leadership,
-            and global connection. We are always ready to welcome you, whether you're joining us for
-            the first time or visiting our official offices.
+            and global connection.
           </p>
 
-          <div class="space-y-8">
+          <div class="space-y-10 lg:space-y-8">
             <div
               v-for="item in [
                 {
@@ -28,7 +29,7 @@
                 { l: 'Email Inquiries', v: 'rodman.guzman@cym.com', i: 'mail' },
               ]"
               :key="item.l"
-              class="flex gap-6"
+              class="flex flex-col items-center gap-6 lg:flex-row lg:items-start"
             >
               <div
                 class="text-primary flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-slate-50"
@@ -83,7 +84,7 @@
                   <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
                 </svg>
               </div>
-              <div>
+              <div class="text-center lg:text-left">
                 <div class="mb-1 text-xs font-black tracking-widest text-slate-300 uppercase">
                   {{ item.l }}
                 </div>
@@ -91,7 +92,7 @@
                   <a
                     :href="item.link"
                     target="_blank"
-                    class="text-primary-dark hover:text-primary flex items-center gap-2 font-bold tracking-tight transition-colors"
+                    class="text-primary-dark hover:text-primary inline-flex items-center gap-2 font-bold tracking-tight transition-colors"
                   >
                     {{ item.v }}
                     <svg
@@ -119,7 +120,7 @@
         </div>
 
         <div
-          class="group h-[500px] w-full overflow-hidden rounded-[3rem] border border-slate-100 bg-slate-50 shadow-xl"
+          class="group h-[300px] w-full overflow-hidden rounded-4xl border border-slate-100 bg-slate-50 shadow-xl sm:h-[400px] lg:h-[500px]"
         >
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3941.144414141414!2d124.7557607!3d8.532805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32ffed797ae33831%3A0x441ecf7dc070c011!2sCYM%20INTERNATIONAL%20INC.!5e0!3m2!1sen!2sph!4v1706600000000!5m2!1sen!2sph"

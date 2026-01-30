@@ -1,5 +1,5 @@
 <template>
-  <section id="about" class="overflow-hidden py-32">
+  <section id="about" class="overflow-hidden py-20 md:py-32">
     <div class="container mx-auto px-6">
       <div class="grid gap-20 lg:grid-cols-2 lg:items-center">
         <div class="relative">
@@ -7,10 +7,10 @@
           <img
             src="/assets/images/community.png"
             alt="Transformation"
-            class="rounded-[3rem] shadow-2xl grayscale"
+            class="w-full rounded-[3rem] shadow-2xl grayscale"
           />
           <div
-            class="bg-primary-dark absolute -right-10 -bottom-10 max-w-sm rounded-[2rem] p-12 text-white shadow-2xl"
+            class="bg-primary-dark relative mx-auto -mt-12 w-[90%] max-w-sm rounded-4xl p-8 text-white shadow-2xl lg:absolute lg:-right-10 lg:-bottom-10 lg:mx-0 lg:mt-0 lg:w-full lg:p-12"
           >
             <div class="bg-primary mb-6 h-1 w-20"></div>
             <p class="text-xl leading-relaxed font-medium italic opacity-90">
@@ -30,7 +30,7 @@
         </div>
         <div class="space-y-10">
           <div class="text-primary text-xs font-black tracking-[0.3em] uppercase">Our Journey</div>
-          <h2 class="text-primary-dark text-5xl leading-tight font-bold tracking-tight">
+          <h2 class="text-primary-dark text-3xl leading-tight font-bold tracking-tight md:text-5xl">
             Faith that meets the modern world.
           </h2>
           <div class="space-y-6">

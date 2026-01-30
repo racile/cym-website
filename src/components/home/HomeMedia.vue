@@ -1,5 +1,5 @@
 <template>
-  <section id="media" class="bg-white py-32">
+  <section id="media" class="bg-white py-20 md:py-32">
     <div class="container mx-auto px-6">
       <div class="bg-primary shadow-3xl shadow-primary/20 overflow-hidden rounded-[3rem]">
         <div class="grid md:grid-cols-2">
@@ -32,11 +32,13 @@
               </div>
             </div>
           </div>
-          <div class="flex flex-col justify-center p-12 text-white md:p-24">
+          <div class="flex flex-col justify-center p-8 text-white md:p-24">
             <span class="text-primary-light mb-4 text-xs font-black tracking-[0.3em] uppercase"
               >Latest Message</span
             >
-            <h2 class="mb-8 text-5xl leading-tight font-black">Finding Peace in the Chaos</h2>
+            <h2 class="mb-8 text-3xl leading-tight font-black md:text-5xl">
+              Finding Peace in the Chaos
+            </h2>
             <p class="mb-12 text-xl leading-relaxed font-medium opacity-80">
               Watch our latest teaching on how to maintain inner peace and spiritual focus in an
               increasingly busy world.

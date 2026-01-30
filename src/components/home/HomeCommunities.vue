@@ -10,13 +10,13 @@ defineProps<{
 </script>
 
 <template>
-  <section id="community" class="bg-slate-50 py-32">
+  <section id="community" class="bg-slate-50 py-20 md:py-32">
     <div class="container mx-auto px-6">
       <div class="mb-20 text-center">
         <div class="text-primary mb-4 text-xs font-black tracking-[0.3em] uppercase">
           Engage & Grow
         </div>
-        <h2 class="text-primary-dark mb-6 text-5xl font-bold tracking-tight">
+        <h2 class="text-primary-dark mb-6 text-3xl font-bold tracking-tight md:text-5xl">
           Communities within CYM.
         </h2>
         <p class="mx-auto max-w-2xl text-lg leading-relaxed font-medium text-slate-500">
