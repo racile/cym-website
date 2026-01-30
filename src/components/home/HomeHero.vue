@@ -60,7 +60,7 @@ defineProps<{
 
           <p class="mb-12 max-w-xl text-xl leading-relaxed font-medium text-white/60">
             We are a modern community of believers dedicated to living out the gospel in the heart
-            of Metro City. Join us as we grow, serve, and transform together.
+            of our community. Join us as we grow, serve, and transform together.
           </p>
 
           <div class="flex flex-wrap gap-5">
@@ -137,7 +137,7 @@ defineProps<{
             <div class="text-xs leading-none font-bold tracking-widest text-slate-400 uppercase">
               Growing Community
             </div>
-            <div class="text-primary-dark mt-1 font-bold">Active in Metro City</div>
+            <div class="text-primary-dark mt-1 font-bold">Active in Ministry</div>
           </div>
         </div>
       </div>

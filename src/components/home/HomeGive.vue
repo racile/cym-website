@@ -10,7 +10,7 @@
             Support the Mission.
           </h2>
           <p class="mb-10 text-lg leading-relaxed font-medium text-slate-500">
-            Your generosity enables us to serve Metro City, support local partners, and create
+            Your generosity enables us to serve our mission, support local partners, and create
             spaces for spiritual growth. We believe in being a blessing to our community through
             collective action.
           </p>

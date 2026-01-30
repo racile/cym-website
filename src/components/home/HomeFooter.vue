@@ -26,7 +26,7 @@ const currentYear = new Date().getUTCFullYear()
           </div>
           <p class="max-w-sm text-[15px] leading-relaxed font-medium text-slate-400">
             Christ in You Ministry: Experiencing transformation through faith, community, and
-            purpose. Serving Metro City since 2024.
+            purpose. Serving God's Kingdom since 2024.
           </p>
           <div class="flex gap-4">
             <a

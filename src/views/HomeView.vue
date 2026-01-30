@@ -39,7 +39,7 @@ const communities = [
   {
     title: 'City Impact',
     description:
-      'Our outreach team dedicated to serving the needs of Metro City through local partnerships.',
+      "Our outreach team dedicated to serving the needs of God's people through local partnerships.",
     icon: 'globe',
     count: '15 Partners',
   },
