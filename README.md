@@ -1,3 +1,5 @@
+test edit
+
 # Christ in You Ministries (CYM) - Website
 
 A professional, modern, and high-performance church website built with **Vue 3**, **Vite**, and **Tailwind CSS v4**. This repository features a component-based architecture designed for high maintainability and a premium user experience.
@@ -54,6 +56,7 @@ src/
 ### Development
 
 Start the development server with Hot Module Replacement (HMR):
+
 ```bash
 npm run dev
 ```
@@ -61,6 +64,7 @@ npm run dev
 ### Build
 
 Compile and minify for production:
+
 ```bash
 npm run build
 ```
@@ -70,6 +74,7 @@ The output will be generated in the `dist/` directory.
 ### Linting & Standards
 
 Run TypeScript check and linting:
+
 ```bash
 npm run type-check
 npm run lint
