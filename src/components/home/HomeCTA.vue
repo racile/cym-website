@@ -11,8 +11,8 @@
           Ready to find your place?
         </h2>
         <p class="mx-auto mb-12 max-w-2xl text-xl leading-relaxed font-medium text-white/40">
-          We'd love to welcome you this Sunday at 10:00 AM. Join us for worship and stay for a
-          coffee in our welcome lounge.
+          We'd love to welcome you this Sunday at 9:00 AM. Join us for worship and stay for a coffee
+          in our welcome lounge.
         </p>
 
         <div class="flex flex-col items-center justify-center gap-10 md:flex-row">
@@ -53,7 +53,7 @@
         <div class="mt-24 grid gap-8 text-white/40 md:grid-cols-3">
           <div
             v-for="info in [
-              { l: 'Location', v: 'Natumolan Tagoloan, Cagayan De Oro' },
+              { l: 'Location', v: 'Natumolan, Tagoloan, Misamis Oriental' },
               { l: 'Office Hours', v: 'Mon – Fri: 9AM – 5PM' },
               { l: 'Get in Touch', v: 'rodman.guzman@cym.com' },
             ]"

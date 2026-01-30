@@ -3,6 +3,7 @@ import { ref, onMounted } from 'vue'
 import HomeNavbar from '@/components/home/HomeNavbar.vue'
 import HomeHero from '@/components/home/HomeHero.vue'
 import HomeStats from '@/components/home/HomeStats.vue'
+import HomeMissionVision from '@/components/home/HomeMissionVision.vue'
 import HomeCommunities from '@/components/home/HomeCommunities.vue'
 import HomeJourney from '@/components/home/HomeJourney.vue'
 import HomeMedia from '@/components/home/HomeMedia.vue'
@@ -79,6 +80,7 @@ const recentUpdates = [
     <HomeNavbar :is-scrolled="isScrolled" />
     <HomeHero :recent-updates="recentUpdates" />
     <HomeStats />
+    <HomeMissionVision />
     <HomeCommunities :communities="communities" />
     <HomeJourney />
     <HomeMedia />

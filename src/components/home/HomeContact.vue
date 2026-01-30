@@ -21,7 +21,7 @@
               v-for="item in [
                 {
                   l: 'Location',
-                  v: 'Old Rd, Natumolan Tagoloan, Cagayan De Oro City, 9001 Misamis Oriental, Philippines',
+                  v: 'Old Rd, Natumolan, Tagoloan, Misamis Oriental, Philippines',
                   i: 'map-pin',
                   link: 'https://www.google.com/maps/place/CYM+INTERNATIONAL+INC./@8.532805,124.7557607,17z/',
                 },

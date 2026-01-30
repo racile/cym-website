@@ -18,11 +18,15 @@
               everyday life. It's more than a church—it's home."
             </p>
             <div class="mt-8 flex items-center gap-4">
-              <div class="h-12 w-12 rounded-full bg-slate-800"></div>
+              <img
+                src="/assets/images/xenan_optimized.jpg"
+                alt="Xelander Padua"
+                class="h-24 w-24 shrink-0 rounded-full border-4 border-white/10 object-cover shadow-2xl"
+              />
               <div>
-                <div class="font-bold">David Chen</div>
+                <div class="font-bold">Xelander Padua</div>
                 <div class="text-xs font-bold tracking-widest text-white/40 uppercase">
-                  Community Member
+                  Engineer
                 </div>
               </div>
             </div>
